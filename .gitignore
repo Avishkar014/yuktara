@@ -1,0 +1,107 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn-lock.yaml
+package-lock.lock
+
+# Environment variables
+.env.local
+.env.*.local
+.env
+.env.example
+
+# Dependency locks
+p-lock.yaml
+
+# Production build
+dist/
+build/
+
+# Runtime artifacts
+*.pid
+*.seed
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+
+# OS-generated files
+.DS_Store
+.Locker/
+Thumbs.db
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Docker
+.dockerinit
+
+# npm/yarn
+/.package-lock.json
+/.yarn-integrity
+
+# Middleman
+/.middleman
+
+# Netlify/_redirects
+/.netlify
+
+# Vercel
+/.vercel
+
+# Storybook
+/.storybook
+
+# Turborepo
+/turbo.json
+
+# Turbopack
+/.turbopack
+
+# Babel
+/.babelrc
+
+# TypeScript
+/tsconfig.json
+
+# ESLint
+/.eslintcache
+
+# Next.js
+/.next
+
+# Nuxt
+/.nuxt
+
+# Vite
+/.vite
+
+# VitePress
+/.vitepress
+
+# Dotenv
+.env*
+
+# Yarn Berry
+.yarn/
+
+# Turborepo
+/turbo.json
+
+# Andern
+# Deno
+/uploads
+
+# Package manager cache
+.yarn/cache/
+node_modules/
+yarn-debug.log
+yarn-error.log
+
+# pnpm
+.pnpm-store/
